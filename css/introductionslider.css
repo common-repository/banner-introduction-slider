@@ -1,0 +1,92 @@
+/* this line can be removed, but it really helps in case of css conflicts in your page */
+            .slider1 div { position: relative; margin: 0px; padding: 0px; }
+
+.captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 4px;
+        }
+        .captionOrange
+        {
+            background: #EB5100;
+            background-color: rgba(235, 81, 0, 0.6);
+        }
+        .captionBlack
+        {
+        	font-size:16px;
+            background: #000;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+        {
+        	color: #ffffff;
+        	text-decoration: none;
+        }
+        a.captionOrange:hover
+        {
+            color: #eb5100;
+            text-decoration: underline;
+            background-color: #eeeeee;
+            background-color: rgba(238, 238, 238, 0.7);
+        }
+        .bricon
+        {
+            background: url(browser-icons.png);
+        }
+		
+		/* jssor slider navigator skin 03 css */
+            /*
+            .jssorn03 div           (normal)
+            .jssorn03 div:hover     (normal mouseover)
+            .jssorn03 .av           (active)
+            .jssorn03 .av:hover     (active mouseover)
+            .jssorn03 .dn           (mousedown)
+            */
+            .jssorn03 div, .jssorn03 div:hover, .jssorn03 .av
+            {
+                background: url(n03.png) no-repeat;
+                overflow:hidden;
+                cursor: pointer;
+            }
+            .jssorn03 div { background-position: -5px -4px; }
+            .jssorn03 div:hover, .jssorn03 .av:hover { background-position: -35px -4px; }
+            .jssorn03 .av { background-position: -65px -4px; }
+            .jssorn03 .dn, .jssorn03 .dn:hover { background-position: -95px -4px; }
+			
+			
+			 /* jssor slider direction navigator skin 20 css */
+            /*
+            .jssord20l              (normal)
+            .jssord20r              (normal)
+            .jssord20l:hover        (normal mouseover)
+            .jssord20r:hover        (normal mouseover)
+            .jssord20ldn            (mousedown)
+            .jssord20rdn            (mousedown)
+            */
+            .jssord20l, .jssord20r, .jssord20ldn, .jssord20rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(d20.png) no-repeat;
+                overflow:hidden;
+            }
+            .jssord20l { background-position: -3px -33px; }
+            .jssord20r { background-position: -63px -33px; }
+            .jssord20l:hover { background-position: -123px -33px; }
+            .jssord20r:hover { background-position: -183px -33px; }
+            .jssord20ldn { background-position: -243px -33px; }
+            .jssord20rdn { background-position: -303px -33px; }
+			
+.bigs_loading_screen{
+	position: absolute;
+	display: block;
+	background: url(../images/loading.gif) no-repeat center center;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height:100%;
+}
